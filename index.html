@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A short music analysis of Sometimes Memory Fails Me Sometimes by Everyone Asked About You.">
+  <title>Sometimes Memory Fails Me Sometimes — Music Analysis</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#activity">Skip to activity</a>
+  <header class="mast shell">
+    <a class="wordmark" href="#top">Music Analysis</a>
+    <nav aria-label="Sections">
+      <a href="#band">The band</a>
+      <a href="#activity">Activity</a>
+      <button type="button" class="sound-toggle" aria-pressed="true">Clicks on</button>
+    </nav>
+  </header>
+  <main id="top">
+    <section class="hero shell" aria-labelledby="song">
+      <div class="hero-copy">
+        <p class="eyebrow">Everyone Asked About You</p>
+        <h1 id="song">Sometimes<br>Memory Fails<br>Me Sometimes</h1>
+        <h2 class="hero-quote">“bridges emo's midwest and twinkle varietals”</h2>
+        <a class="quote-source" href="https://numerogroup.com/products/sometimes-memory-fails-me-sometimes-b-w-handsome-beautiful">Numero Group</a>
+        <p class="track-meta">1998 <span>·</span> Midwest emo / indie rock <span>·</span> 4:44</p>
+        <div class="hero-actions">
+          <button type="button" class="play" data-play><span class="play-icon" aria-hidden="true"></span>Play the song</button>
+        </div>
+      </div>
+      <figure class="cover">
+        <button class="cover-button" type="button" data-play aria-label="Play Sometimes Memory Fails Me Sometimes">
+          <span class="record" aria-hidden="true"><span></span></span>
+          <img src="cover.jpg" width="600" height="600" alt="Official cover of the single, Sometimes Memory Fails Me Sometimes b/w Handsome Beautiful">
+        </button>
+        <figcaption><a href="https://everyoneasked.bandcamp.com/album/sometimes-memory-fails-me-sometimes-b-w-handsome-beautiful">Single cover · Numero Group</a></figcaption>
+      </figure>
+    </section>
+    <section class="memory">
+      <div class="shell memory-inner">
+        <h2>Why I like it</h2>
+        <p>This song reminds me of someone I used to love and talk to every day. Even when I forget what we talked about, I still remember what it felt like to have them there. The bright notes and rough singing capture that mix of missing someone and being glad I knew them.</p>
+      </div>
+    </section>
+    <section class="shell band" id="band" aria-labelledby="band-title">
+      <h2 id="band-title">The band</h2>
+      <ol class="timeline">
+        <li><strong>1996</strong><p>Everyone Asked About You formed in Little Rock, Arkansas, mixing emo with bright indie-pop melodies.</p></li>
+        <li><strong>1998</strong><p>They recorded this single with a drum machine, glockenspiel, flute, and distorted vocals.</p></li>
+        <li><strong>2022–24</strong><p>They reunited in Little Rock, Numero Group reissued their recordings, and this song found a new audience on TikTok.</p></li>
+      </ol>
+      <p class="sources"><a href="https://numerogroup.com/blogs/stories/paper-airplanes-paper-hearts-the-story-of-everyone-asked-about-you">Numero Group band history</a><a href="https://stereogum.com/2266222/everyone-asked-about-you-share-first-new-song-in-25-years/music">Stereogum on the comeback</a></p>
+    </section>
+    <section class="activity" id="activity" aria-labelledby="activity-title">
+      <div class="shell">
+        <h2 id="activity-title">The activity</h2>
+        <ol class="answers">
+          <li><h3>Melody and Rhythm</h3><p>The melody is simple and sticks with you. The same phrases come back over a steady beat, so the repetition feels like someone turning a memory over in their head. That makes the song catchy and a little sad at the same time.</p></li>
+          <li><h3>Tempo and Dynamics</h3><p>The pace feels relaxed, but the beat keeps it moving. The softer sounds in the second half give the voices more room. I think that change makes the ending hit harder.</p></li>
+          <li><h3>Timbre and Texture</h3><p>The vocals sound rough next to the bright glockenspiel and soft flute. The drum machine keeps those different sounds together. That mix is my favorite part because the song sounds fragile and lively at the same time.</p></li>
+          <li><h3>Lyrics and Musical Expression</h3><p>To me, the song is about trying to remember how a relationship felt. The repeated lines sound like thoughts you keep coming back to, and the words get more frustrated near the end. The melody stays gentle, which makes that frustration stand out.</p></li>
+          <li><h3>Overall Critique and Appreciation</h3><p>Stereogum reported that the song found a new audience on TikTok years after it came out. I get why people kept coming back to it, because the tune is easy to remember and the voices sound like they mean every word. What makes it good is how the bright instruments and rough singing capture the good and bad parts of the same memory.</p></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+  <aside class="player" aria-label="Song player" hidden>
+    <div class="player-bar"><span>Sometimes Memory Fails Me Sometimes</span><button type="button" class="stop">Close player</button></div>
+    <audio controls preload="none" src="song.m4a" aria-label="Sometimes Memory Fails Me Sometimes"></audio>
+    <p class="player-error" role="status" hidden></p>
+  </aside>
+</body>
+</html>
